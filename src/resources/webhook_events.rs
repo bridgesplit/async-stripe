@@ -478,6 +478,7 @@ pub enum EventObject {
     TestHelpersTestClock(TestHelpersTestClock),
     Topup(Topup),
     Transfer(Transfer),
+    VerificationSession(IdentityVerificationSession),
 }
 
 impl Default for EventObject {
