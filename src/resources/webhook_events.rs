@@ -479,6 +479,7 @@ pub enum EventObject {
     TestHelpersTestClock(TestHelpersTestClock),
     Topup(Topup),
     Transfer(Transfer),
+    #[serde(rename = "identity.verification_session")]
     VerificationSession(IdentityVerificationSession),
 }
 
