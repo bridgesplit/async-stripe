@@ -512,6 +512,8 @@ def_id!(FileLinkId, "link_");
 def_id!(InvoiceId, "in_", { _ });
 def_id!(InvoiceItemId, "ii_");
 def_id!(InvoiceLineItemIdWebhook, "il_");
+def_id!(IdentityVerificationSessionId: String); // not documented
+def_id!(IdentityVerificationReportId: String); // not documented
 
 def_id!(
     enum InvoiceLineItemId {
