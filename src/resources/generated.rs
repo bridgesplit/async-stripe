@@ -24,6 +24,8 @@ pub mod core {
     pub mod ephemeral_key;
     pub mod file;
     pub mod file_link;
+    pub mod identity_verification_report;
+    pub mod identity_verification_session;
     pub mod invoice_setting_rendering_options;
     pub mod linked_account_options_us_bank_account;
     pub mod mandate;

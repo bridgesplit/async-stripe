@@ -147,6 +147,7 @@ pub use {
         token::*,
         api_errors::*,
         identity_verification_session::*,
+        identity_verification_report::*,
     },
 
     payment::{
