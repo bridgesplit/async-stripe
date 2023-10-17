@@ -10,6 +10,7 @@ use sha2::Sha256;
 use smart_default::SmartDefault;
 
 use crate::error::WebhookError;
+use crate::resources::IdentityVerificationSession;
 use crate::resources::*;
 
 #[derive(Copy, Clone, Debug, Deserialize, Serialize, Eq, PartialEq, Hash, SmartDefault)]

@@ -146,6 +146,7 @@ pub use {
         test_helpers_test_clock::*,
         token::*,
         api_errors::*,
+        identity_verification_session::*,
     },
 
     payment::{
